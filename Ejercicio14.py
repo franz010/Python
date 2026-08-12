@@ -18,6 +18,4 @@ if eliminar in frutas:
 else:
     print("No se encuantra la fruta a eliminar¡¡¡")
 
-
-
 print("La actual lista de frutas es: ", frutas)

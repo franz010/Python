@@ -10,7 +10,14 @@ for fruta in range(num_frutas):
 #se muestra por pantalla las frutas que se encuentran en la lista
 print("La lista de frutas ingresadas es: ", frutas)
 
-eliminar = frutas.remove(input("Ingresa la fruta que quieres eliminar: "))
+eliminar = input("Ingresa la fruta que quieres eliminar: ")
+
+if eliminar in frutas:
+    frutas.remove(eliminar)
+
+else:
+    print("No se encuantra la fruta a eliminar¡¡¡")
+
 
 
 print("La actual lista de frutas es: ", frutas)
